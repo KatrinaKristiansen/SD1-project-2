@@ -1,1 +1,21 @@
-NONE
+var pirateShip = function (name){
+    var cargoHold = [];
+    var cargoHold = function (item){
+        if (item !== "elephants") {
+            cargoHold.push(item);
+        } else {
+                console.log("Not allowed to load elephants")
+            }
+
+    }
+};
+var cargoList = function () { };
+     for (var n = 0; n< cargoHold.length; n++){
+        console.log(name + " cargo " + n + ": " + cargoHold[n] + ".' );
+     }
+return {
+    "name": name,
+    "captain":""
+    "crew":[],
+    "cargoLoad"; cargoLoad
+}
